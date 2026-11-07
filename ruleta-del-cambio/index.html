@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Trivia educativa sobre menopausia y andropausia.">
+  <title>La ruleta del cambio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Nunito+Sans:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="interfaz.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#game">Saltar al juego</a>
+  <main class="app-shell" id="game">
+    <div class="topbar" aria-label="Estado de la partida">
+      <div class="game-stats"><span>Pregunta <strong id="progress-count">0</strong>/10</span><span><strong id="score-count">0</strong> puntos</span></div>
+    </div>
+    <section class="screen wheel-screen is-active" id="wheel-screen" aria-labelledby="game-title">
+      <div class="screen-heading"><p class="eyebrow">Trivia educativa</p><h1 id="game-title">La ruleta del cambio</h1></div>
+      <div class="wheel-stage"><div class="pointer" aria-hidden="true"></div><svg class="wheel" viewBox="0 0 360 360" role="img" aria-labelledby="wheel-title wheel-description"><title id="wheel-title">Ruleta con seis temas</title><desc id="wheel-description">Seis sectores sobre menopausia, andropausia, hormonas, diagnóstico y tratamientos.</desc><g id="wheel-rotor"></g></svg></div>
+      <div class="wheel-actions">
+        <p class="wheel-instruction">Girá la rueda y poné a prueba lo que sabés.</p>
+        <p class="spin-status" id="spin-status" role="status" aria-live="polite"></p>
+        <button class="primary-button spin-button" id="spin-button" type="button">Girar ruleta</button>
+        <button class="reset-button reset-trigger" type="button">Reiniciar partida</button>
+      </div>
+    </section>
+    <section class="screen category-reveal" id="category-reveal" aria-labelledby="category-reveal-title" aria-live="polite" hidden>
+      <p class="category-reveal-kicker">Tema seleccionado</p>
+      <h2 id="category-reveal-title" tabindex="-1"></h2>
+    </section>
+    <section class="screen question-screen" id="question-screen" aria-labelledby="question-title" hidden>
+      <div class="question-wrap">
+        <div class="question-toolbar">
+          <div class="question-stats"><span>Pregunta <strong id="question-progress-count">0</strong>/10</span><span><strong id="question-score-count">0</strong> puntos</span></div>
+          <p class="category-name" id="category-name"></p>
+        </div>
+        <h2 id="question-title" tabindex="-1"></h2><div class="answer-list" id="answer-list" aria-label="Opciones de respuesta"></div>
+        <button class="reset-button reset-trigger question-reset" type="button">Reiniciar partida</button>
+      </div>
+    </section>
+    <div class="confetti-layer" id="confetti-layer" aria-hidden="true"></div>
+    <section class="screen feedback-screen" id="feedback-screen" aria-labelledby="feedback-title" hidden>
+      <div class="feedback-content" id="feedback-panel" aria-live="polite">
+        <span class="feedback-icon" id="feedback-icon" aria-hidden="true"></span>
+        <h2 id="feedback-title" tabindex="-1"></h2>
+        <p id="feedback-explanation"></p>
+        <p class="source"><strong>Fuente:</strong> <span id="feedback-source"></span></p>
+        <div class="feedback-actions">
+          <button class="primary-button next-button" id="next-button" type="button" hidden>Volver a girar</button>
+          <button class="reset-button reset-trigger" type="button">Reiniciar partida</button>
+        </div>
+      </div>
+    </section>
+    <section class="screen result-screen" id="result-screen" aria-labelledby="result-title" hidden>
+      <div class="result-card">
+        <div class="result-mark" aria-hidden="true">✓</div>
+        <p class="eyebrow">Trivia completada</p>
+        <h2 id="result-title" tabindex="-1">¡Llegaste al final!</h2>
+        <dl class="result-breakdown" aria-label="Detalle de respuestas correctas">
+          <div><dt>Menopausia</dt><dd><strong id="menopause-correct">0</strong> de <span id="menopause-total">0</span></dd></div>
+          <div><dt>Andropausia</dt><dd><strong id="andropause-correct">0</strong> de <span id="andropause-total">0</span></dd></div>
+        </dl>
+        <p class="result-score">Puntaje: <strong id="final-score">0</strong>/10</p>
+        <button class="primary-button" id="play-again-button" type="button">Jugar otra vez</button>
+      </div>
+    </section>
+  </main>
+  <div class="wave-transition" id="wave-transition" aria-hidden="true" hidden>
+    <svg class="transition-wave wave-1" viewBox="0 0 1440 900" preserveAspectRatio="none"><path d="M0-60C240 55 430-105 720 15S1170-75 1440 20V900H0Z"/></svg>
+    <svg class="transition-wave wave-2" viewBox="0 0 1440 900" preserveAspectRatio="none"><path d="M0 115C220 20 455 245 735 125S1160 30 1440 145V900H0Z"/></svg>
+    <svg class="transition-wave wave-3" viewBox="0 0 1440 900" preserveAspectRatio="none"><path d="M0 285C260 190 420 405 700 300S1130 185 1440 270V900H0Z"/></svg>
+    <svg class="transition-wave wave-4" viewBox="0 0 1440 900" preserveAspectRatio="none"><path d="M0 455C225 345 455 585 750 460S1165 355 1440 475V900H0Z"/></svg>
+    <svg class="transition-wave wave-5" viewBox="0 0 1440 900" preserveAspectRatio="none"><path d="M0 625C250 535 425 755 715 640S1140 540 1440 625V900H0Z"/></svg>
+    <svg class="transition-wave wave-6" viewBox="0 0 1440 900" preserveAspectRatio="none"><path d="M0 775C235 690 460 880 730 790S1160 705 1440 785V900H0Z"/></svg>
+  </div>
+  <footer>Contenido educativo: no reemplaza una consulta médica.</footer>
+  <dialog id="reset-dialog" aria-labelledby="reset-title"><h2 id="reset-title">¿Reiniciar la partida?</h2><p>Se perderán el puntaje y las preguntas respondidas.</p><div class="dialog-actions"><button class="secondary-button" id="cancel-reset" type="button">Seguir jugando</button><button class="primary-button" id="confirm-reset" type="button">Reiniciar</button></div></dialog>
+  <div class="loading-error" id="loading-error" role="alert" hidden><h1>No pudimos cargar la trivia</h1><p>Iniciá la aplicación con <code>node server.js</code> y volvé a intentarlo.</p><button class="primary-button" type="button" onclick="location.reload()">Reintentar</button></div>
+  <script src="app.js"></script>
+</body>
+</html>

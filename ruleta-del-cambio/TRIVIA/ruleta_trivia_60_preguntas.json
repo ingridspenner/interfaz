@@ -1,0 +1,825 @@
+{
+  "title": "La ruleta del cambio",
+  "version": "1.0",
+  "notes": "Preguntas educativas adaptadas del banco de 60 preguntas acordado en esta conversación. Las recomendaciones clínicas del PDF sin fecha deben contrastarse con guías actuales.",
+  "categories": [
+    {
+      "id": "menopausia_conceptos",
+      "name": "Conceptos de menopausia",
+      "color": "#a9d6c7",
+      "wheelLabel": "Conceptos\nMenopausia"
+    },
+    {
+      "id": "menopausia_sintomas",
+      "name": "Síntomas de menopausia",
+      "color": "#efc99c",
+      "wheelLabel": "Síntomas\nMenopausia"
+    },
+    {
+      "id": "hormonas_salud",
+      "name": "Hormonas y salud",
+      "color": "#dca9bc",
+      "wheelLabel": "Hormonas\ny salud"
+    },
+    {
+      "id": "andropausia_conceptos",
+      "name": "Conceptos de andropausia",
+      "color": "#9fc1e4",
+      "wheelLabel": "Conceptos\nAndropausia"
+    },
+    {
+      "id": "andropausia_sintomas",
+      "name": "Síntomas y causas de la andropausia",
+      "color": "#bdaddc",
+      "wheelLabel": "Síntomas\ny causas"
+    },
+    {
+      "id": "diagnostico_tratamientos",
+      "name": "Diagnóstico y tratamientos",
+      "color": "#e5d18e",
+      "wheelLabel": "Diagnóstico\ny tratamientos"
+    }
+  ],
+  "questions": [
+    {
+      "id": "P01",
+      "categoryId": "menopausia_conceptos",
+      "question": "¿Qué es la menopausia?",
+      "options": [
+        "Una enfermedad infecciosa.",
+        "El final permanente de los ciclos menstruales.",
+        "Un aumento de la fertilidad."
+      ],
+      "correctAnswer": "B",
+      "explanation": "La menopausia natural marca el final de la menstruación por el cese de la función folicular ovárica.",
+      "source": "OMS — Menopausia"
+    },
+    {
+      "id": "P02",
+      "categoryId": "menopausia_conceptos",
+      "question": "¿Cuántos meses sin menstruación permiten confirmar la menopausia natural, si no existe otra causa?",
+      "options": [
+        "6 meses.",
+        "9 meses.",
+        "12 meses."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Se considera tras 12 meses consecutivos sin menstruación sin otra causa que explique la ausencia.",
+      "source": "PDF Menopausia y Andropausia, p. 3"
+    },
+    {
+      "id": "P03",
+      "categoryId": "menopausia_conceptos",
+      "question": "¿Qué es la perimenopausia?",
+      "options": [
+        "La transición que rodea la menopausia.",
+        "Una enfermedad de los ovarios.",
+        "La etapa anterior a la primera menstruación."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Es la etapa de transición hacia la menopausia, durante la cual pueden cambiar los ciclos y aparecer síntomas.",
+      "source": "OMS — Menopausia"
+    },
+    {
+      "id": "P04",
+      "categoryId": "menopausia_conceptos",
+      "question": "¿Entre qué edades suele producirse la menopausia natural?",
+      "options": [
+        "20–30 años.",
+        "45–55 años.",
+        "65–75 años."
+      ],
+      "correctAnswer": "B",
+      "explanation": "La menopausia natural suele producirse entre los 45 y los 55 años, con variación individual.",
+      "source": "OMS — Menopausia"
+    },
+    {
+      "id": "P05",
+      "categoryId": "menopausia_conceptos",
+      "question": "¿Cuál es la edad promedio aproximada de menopausia según ACOG?",
+      "options": [
+        "35 años.",
+        "65 años.",
+        "51 años."
+      ],
+      "correctAnswer": "C",
+      "explanation": "ACOG sitúa la edad promedio de la menopausia alrededor de los 51 años.",
+      "source": "ACOG — Los años de la menopausia"
+    },
+    {
+      "id": "P06",
+      "categoryId": "menopausia_conceptos",
+      "question": "¿Una mujer puede quedar embarazada durante la perimenopausia?",
+      "options": [
+        "Sí, todavía es posible.",
+        "No, nunca.",
+        "Solo si no tiene síntomas."
+      ],
+      "correctAnswer": "A",
+      "explanation": "La ovulación puede continuar durante la perimenopausia, por lo que un embarazo todavía es posible.",
+      "source": "OMS — Menopausia"
+    },
+    {
+      "id": "P07",
+      "categoryId": "menopausia_conceptos",
+      "question": "¿Cuándo se considera que la menopausia es prematura?",
+      "options": [
+        "Antes de los 40 años.",
+        "Después de los 55 años.",
+        "A los 50 años."
+      ],
+      "correctAnswer": "A",
+      "explanation": "La menopausia antes de los 40 años se considera prematura.",
+      "source": "OMS — Menopausia; PDF Menopausia y Andropausia, p. 3"
+    },
+    {
+      "id": "P08",
+      "categoryId": "menopausia_conceptos",
+      "question": "¿Cuál de estas situaciones puede causar una menopausia inducida?",
+      "options": [
+        "Caminar diariamente.",
+        "La extirpación de ambos ovarios.",
+        "Dormir ocho horas."
+      ],
+      "correctAnswer": "B",
+      "explanation": "La extirpación de ambos ovarios puede inducir menopausia al interrumpir la producción ovárica hormonal.",
+      "source": "OMS — Menopausia"
+    },
+    {
+      "id": "P09",
+      "categoryId": "menopausia_conceptos",
+      "question": "¿Qué ocurre en los ovarios durante la menopausia natural?",
+      "options": [
+        "Aumenta permanentemente la ovulación.",
+        "Se duplican los óvulos.",
+        "Se pierde la función folicular."
+      ],
+      "correctAnswer": "C",
+      "explanation": "El agotamiento de la función folicular ovárica pone fin a los ciclos menstruales.",
+      "source": "OMS — Menopausia"
+    },
+    {
+      "id": "P10",
+      "categoryId": "menopausia_conceptos",
+      "question": "¿Cuánto tiempo puede durar la perimenopausia?",
+      "options": [
+        "Exactamente un mes.",
+        "Varios años.",
+        "Siempre una semana."
+      ],
+      "correctAnswer": "B",
+      "explanation": "La duración de la perimenopausia varía: puede extenderse durante varios años.",
+      "source": "OMS — Menopausia"
+    },
+    {
+      "id": "P11",
+      "categoryId": "menopausia_sintomas",
+      "question": "¿Cuál es uno de los síntomas más característicos de la menopausia?",
+      "options": [
+        "Sofocos.",
+        "Crecimiento de estatura.",
+        "Cambios permanentes del color de ojos."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Los sofocos son una manifestación vasomotora característica de la transición menopáusica.",
+      "source": "PDF Menopausia y Andropausia, p. 4"
+    },
+    {
+      "id": "P12",
+      "categoryId": "menopausia_sintomas",
+      "question": "¿Qué pueden provocar los sofocos nocturnos?",
+      "options": [
+        "Mayor energía.",
+        "Alteraciones del sueño y cansancio.",
+        "Mejor concentración."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Los sofocos nocturnos pueden perturbar el sueño y ocasionar fatiga.",
+      "source": "PDF Menopausia y Andropausia, p. 4"
+    },
+    {
+      "id": "P13",
+      "categoryId": "menopausia_sintomas",
+      "question": "¿Qué puede suceder con la menstruación durante la perimenopausia?",
+      "options": [
+        "Siempre es más regular.",
+        "Desaparece instantáneamente en todas las mujeres.",
+        "Puede volverse irregular."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Durante la transición es habitual que cambien la frecuencia o la regularidad de los ciclos.",
+      "source": "OMS — Menopausia"
+    },
+    {
+      "id": "P14",
+      "categoryId": "menopausia_sintomas",
+      "question": "¿Qué síntoma vaginal puede aparecer por la disminución de estrógenos?",
+      "options": [
+        "Sequedad vaginal.",
+        "Aumento de la elasticidad vaginal.",
+        "Ausencia de sensibilidad en todos los casos."
+      ],
+      "correctAnswer": "A",
+      "explanation": "La menor actividad estrogénica puede provocar sequedad y cambios en los tejidos vaginales.",
+      "source": "PDF Menopausia y Andropausia, p. 5"
+    },
+    {
+      "id": "P15",
+      "categoryId": "menopausia_sintomas",
+      "question": "¿Cuál de estas situaciones puede relacionarse con la sequedad vaginal?",
+      "options": [
+        "Mejoría automática de la visión.",
+        "Dolor durante las relaciones sexuales.",
+        "Aumento del crecimiento muscular."
+      ],
+      "correctAnswer": "B",
+      "explanation": "La sequedad vaginal puede generar molestias o dolor durante las relaciones sexuales.",
+      "source": "ACOG — Los años de la menopausia"
+    },
+    {
+      "id": "P16",
+      "categoryId": "menopausia_sintomas",
+      "question": "¿Qué cambio urinario puede aparecer durante la menopausia?",
+      "options": [
+        "Desaparición de las infecciones urinarias.",
+        "Aumento obligatorio de la capacidad de la vejiga.",
+        "Mayor frecuencia urinaria o infecciones urinarias."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Los cambios genitourinarios pueden incluir urgencia, mayor frecuencia urinaria e infecciones.",
+      "source": "ACOG — Los años de la menopausia"
+    },
+    {
+      "id": "P17",
+      "categoryId": "menopausia_sintomas",
+      "question": "¿Qué cambio emocional puede experimentarse durante la transición menopáusica?",
+      "options": [
+        "Irritabilidad o cambios del estado de ánimo.",
+        "Felicidad constante en todas las personas.",
+        "Pérdida completa de las emociones."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Pueden experimentarse cambios del estado de ánimo, aunque su causa no siempre es exclusivamente hormonal.",
+      "source": "OMS — Menopausia"
+    },
+    {
+      "id": "P18",
+      "categoryId": "menopausia_sintomas",
+      "question": "¿Qué dificultad cognitiva puede experimentar una persona durante la menopausia?",
+      "options": [
+        "Aumento permanente de memoria.",
+        "Problemas de concentración.",
+        "Incapacidad absoluta de aprender."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Algunas personas describen dificultades de atención o concentración durante la transición.",
+      "source": "NIA — ¿Qué es la menopausia?"
+    },
+    {
+      "id": "P19",
+      "categoryId": "menopausia_sintomas",
+      "question": "¿Todas las mujeres presentan síntomas intensos durante la menopausia?",
+      "options": [
+        "Sí, sin excepciones.",
+        "Sí, pero solo durante una semana.",
+        "No, algunas presentan síntomas leves o ninguno."
+      ],
+      "correctAnswer": "C",
+      "explanation": "La intensidad y presencia de síntomas varía de una persona a otra.",
+      "source": "OMS — Menopausia"
+    },
+    {
+      "id": "P20",
+      "categoryId": "menopausia_sintomas",
+      "question": "¿Durante cuánto tiempo pueden mantenerse algunos síntomas menopáusicos?",
+      "options": [
+        "Varios años.",
+        "Exactamente 24 horas.",
+        "Solo durante una menstruación."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Algunos síntomas pueden persistir durante años, con duración e intensidad variables.",
+      "source": "OMS — Menopausia"
+    },
+    {
+      "id": "P21",
+      "categoryId": "hormonas_salud",
+      "question": "¿Qué hormona disminuye significativamente durante la menopausia?",
+      "options": [
+        "Adrenalina.",
+        "Estrógenos.",
+        "Insulina."
+      ],
+      "correctAnswer": "B",
+      "explanation": "El descenso de estrógenos es uno de los cambios hormonales centrales de la menopausia.",
+      "source": "OMS — Menopausia"
+    },
+    {
+      "id": "P22",
+      "categoryId": "hormonas_salud",
+      "question": "¿Qué hormonas suelen aumentar al disminuir la función ovárica, según el documento?",
+      "options": [
+        "Insulina y melatonina.",
+        "Adrenalina y cortisol.",
+        "FSH y LH."
+      ],
+      "correctAnswer": "C",
+      "explanation": "El PDF describe un aumento de las gonadotropinas FSH y LH en respuesta al descenso de la función ovárica.",
+      "source": "PDF Menopausia y Andropausia, p. 3"
+    },
+    {
+      "id": "P23",
+      "categoryId": "hormonas_salud",
+      "question": "¿Qué puede ocurrir con los huesos después de la menopausia?",
+      "options": [
+        "Puede acelerarse la pérdida de masa ósea.",
+        "Se vuelven indestructibles.",
+        "Siempre duplican su densidad."
+      ],
+      "correctAnswer": "A",
+      "explanation": "La disminución de estrógenos puede acelerar la pérdida de masa ósea.",
+      "source": "PDF Menopausia y Andropausia, p. 5"
+    },
+    {
+      "id": "P24",
+      "categoryId": "hormonas_salud",
+      "question": "¿Qué enfermedad aumenta el riesgo de fracturas cuando los huesos pierden densidad?",
+      "options": [
+        "Gastritis.",
+        "Osteoporosis.",
+        "Conjuntivitis."
+      ],
+      "correctAnswer": "B",
+      "explanation": "La osteoporosis debilita los huesos y eleva el riesgo de fracturas.",
+      "source": "ACOG — Los años de la menopausia"
+    },
+    {
+      "id": "P25",
+      "categoryId": "hormonas_salud",
+      "question": "¿Qué actividad favorece el mantenimiento de la salud ósea?",
+      "options": [
+        "Permanecer inmóvil todo el día.",
+        "Evitar cualquier actividad física.",
+        "Caminar y realizar ejercicios de fuerza."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Las actividades con carga y los ejercicios de fuerza ayudan a mantener la salud ósea.",
+      "source": "ACOG — Los años de la menopausia"
+    },
+    {
+      "id": "P26",
+      "categoryId": "hormonas_salud",
+      "question": "¿Qué nutrientes son importantes para mantener la salud de los huesos?",
+      "options": [
+        "Calcio y vitamina D.",
+        "Azúcar y cafeína.",
+        "Sodio y colorantes."
+      ],
+      "correctAnswer": "A",
+      "explanation": "El calcio y la vitamina D participan en el mantenimiento de la salud de los huesos.",
+      "source": "ACOG — Los años de la menopausia"
+    },
+    {
+      "id": "P27",
+      "categoryId": "hormonas_salud",
+      "question": "¿Por qué suele añadirse un progestágeno a los estrógenos en la terapia hormonal sistémica cuando la mujer conserva el útero?",
+      "options": [
+        "Para aumentar la presión arterial.",
+        "Para reducir el riesgo de cáncer de endometrio asociado al estrógeno sin oposición.",
+        "Para impedir la absorción de calcio."
+      ],
+      "correctAnswer": "B",
+      "explanation": "El progestágeno protege el endometrio frente al efecto de estrógenos sistémicos sin oposición.",
+      "source": "ACOG — Terapia hormonal para la menopausia"
+    },
+    {
+      "id": "P28",
+      "categoryId": "hormonas_salud",
+      "question": "¿Qué tratamiento puede utilizarse para aliviar la sequedad vaginal asociada a la menopausia?",
+      "options": [
+        "Antibióticos en todos los casos.",
+        "Suplementos de hierro obligatoriamente.",
+        "Hidratantes vaginales o estrógenos vaginales, según la evaluación médica."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Los hidratantes y, cuando corresponde, los estrógenos vaginales pueden ayudar a aliviar la sequedad.",
+      "source": "ACOG — Los años de la menopausia"
+    },
+    {
+      "id": "P29",
+      "categoryId": "hormonas_salud",
+      "question": "¿Cuál de estos tratamientos puede ser eficaz para aliviar los sofocos intensos?",
+      "options": [
+        "Terapia hormonal menopáusica, cuando está indicada.",
+        "Antibióticos sin indicación médica.",
+        "Suspender definitivamente toda actividad física."
+      ],
+      "correctAnswer": "A",
+      "explanation": "La terapia hormonal menopáusica puede reducir sofocos, pero debe individualizarse según riesgos y beneficios.",
+      "source": "ACOG — Terapia hormonal para la menopausia"
+    },
+    {
+      "id": "P30",
+      "categoryId": "hormonas_salud",
+      "question": "¿Qué se recomienda si aparece sangrado vaginal después de 12 meses sin menstruación?",
+      "options": [
+        "Ignorarlo siempre.",
+        "Consultar a un profesional de salud.",
+        "Considerarlo necesariamente normal."
+      ],
+      "correctAnswer": "B",
+      "explanation": "El sangrado posmenopáusico debe evaluarse, incluso si es leve.",
+      "source": "NHS — Postmenopausal bleeding"
+    },
+    {
+      "id": "P31",
+      "categoryId": "andropausia_conceptos",
+      "question": "¿Por qué el término «andropausia» puede resultar engañoso?",
+      "options": [
+        "Porque describe una infección.",
+        "Porque sugiere una caída hormonal brusca equivalente a la menopausia.",
+        "Porque se refiere únicamente a la infancia."
+      ],
+      "correctAnswer": "B",
+      "explanation": "A diferencia de la menopausia, en los hombres no existe un cese reproductivo brusco universal.",
+      "source": "NHS — The male menopause"
+    },
+    {
+      "id": "P32",
+      "categoryId": "andropausia_conceptos",
+      "question": "¿Qué hormona se relaciona principalmente con los cambios denominados andropausia?",
+      "options": [
+        "Testosterona.",
+        "Insulina.",
+        "Melatonina."
+      ],
+      "correctAnswer": "A",
+      "explanation": "El PDF relaciona el término andropausia con variaciones en la testosterona.",
+      "source": "PDF Menopausia y Andropausia, p. 9"
+    },
+    {
+      "id": "P33",
+      "categoryId": "andropausia_conceptos",
+      "question": "¿Dónde se produce principalmente la testosterona en los hombres?",
+      "options": [
+        "En los pulmones.",
+        "En el estómago.",
+        "En los testículos."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Los testículos son la fuente principal de testosterona masculina.",
+      "source": "Endocrine Society — Testosterone Therapy for Hypogonadism"
+    },
+    {
+      "id": "P34",
+      "categoryId": "andropausia_conceptos",
+      "question": "¿Cómo suelen cambiar los niveles de testosterona con la edad?",
+      "options": [
+        "Desaparecen repentinamente a los 50 años.",
+        "Pueden disminuir gradualmente.",
+        "Se triplican cada año."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Los niveles pueden disminuir de forma gradual con la edad y no lo hacen igual en todos los hombres.",
+      "source": "NHS — The male menopause"
+    },
+    {
+      "id": "P35",
+      "categoryId": "andropausia_conceptos",
+      "question": "¿Todos los hombres desarrollan una deficiencia sintomática de testosterona al envejecer?",
+      "options": [
+        "No.",
+        "Sí, siempre.",
+        "Solo quienes practican deportes."
+      ],
+      "correctAnswer": "A",
+      "explanation": "El envejecimiento no implica necesariamente hipogonadismo clínicamente significativo.",
+      "source": "Endocrine Society — Testosterone Therapy for Hypogonadism"
+    },
+    {
+      "id": "P36",
+      "categoryId": "andropausia_conceptos",
+      "question": "¿Qué condición puede provocar una disminución anormal de testosterona?",
+      "options": [
+        "Tener canas.",
+        "Utilizar anteojos.",
+        "Una enfermedad testicular."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Enfermedades de los testículos pueden afectar la producción de testosterona.",
+      "source": "MedlinePlus — Hipogonadismo"
+    },
+    {
+      "id": "P37",
+      "categoryId": "andropausia_conceptos",
+      "question": "¿Qué estructuras intervienen en la regulación de la producción de testosterona?",
+      "options": [
+        "Los pulmones y el intestino.",
+        "El hipotálamo y la hipófisis.",
+        "La piel y el estómago."
+      ],
+      "correctAnswer": "B",
+      "explanation": "El eje hipotálamo-hipófisis-testículos regula la producción hormonal.",
+      "source": "Endocrine Society — Testosterone Therapy for Hypogonadism"
+    },
+    {
+      "id": "P38",
+      "categoryId": "andropausia_conceptos",
+      "question": "¿Qué diferencia destaca el PDF entre la menopausia y los cambios hormonales masculinos?",
+      "options": [
+        "En los hombres no existe un equivalente al cese de la menstruación.",
+        "Los hombres presentan menstruaciones irregulares.",
+        "Los cambios son idénticos."
+      ],
+      "correctAnswer": "A",
+      "explanation": "El documento destaca la falta de un marcador tan claro como el cese menstrual para los cambios en varones.",
+      "source": "PDF Menopausia y Andropausia, p. 9"
+    },
+    {
+      "id": "P39",
+      "categoryId": "andropausia_conceptos",
+      "question": "¿Qué hormonas pueden medirse para investigar si un hipogonadismo masculino es primario o secundario?",
+      "options": [
+        "Melatonina y adrenalina.",
+        "Insulina y glucagón.",
+        "LH y FSH."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Las gonadotropinas LH y FSH ayudan a diferenciar causas testiculares de causas centrales.",
+      "source": "Endocrine Society — Testosterone Therapy for Hypogonadism"
+    },
+    {
+      "id": "P40",
+      "categoryId": "andropausia_conceptos",
+      "question": "¿Un valor aislado de testosterona baja confirma por sí solo un diagnóstico de hipogonadismo?",
+      "options": [
+        "Sí, siempre.",
+        "No, se requieren síntomas y confirmación analítica.",
+        "Sí, cuando la persona tiene más de 40 años."
+      ],
+      "correctAnswer": "B",
+      "explanation": "El diagnóstico exige manifestaciones compatibles junto a concentraciones repetidamente bajas.",
+      "source": "Endocrine Society — Testosterone Therapy for Hypogonadism"
+    },
+    {
+      "id": "P41",
+      "categoryId": "andropausia_sintomas",
+      "question": "¿Qué cambio sexual puede aparecer en hombres con deficiencia de testosterona?",
+      "options": [
+        "Aumento obligatorio de la libido.",
+        "Disminución del deseo sexual.",
+        "Desaparición de todos los cambios relacionados con la edad."
+      ],
+      "correctAnswer": "B",
+      "explanation": "La disminución de la libido es una de las manifestaciones posibles, pero no es por sí sola diagnóstica.",
+      "source": "PDF Menopausia y Andropausia, pp. 9–10"
+    },
+    {
+      "id": "P42",
+      "categoryId": "andropausia_sintomas",
+      "question": "¿Qué alteración sexual puede asociarse con el hipogonadismo masculino?",
+      "options": [
+        "Dificultades para lograr o mantener una erección.",
+        "Aumento permanente de las erecciones espontáneas.",
+        "Imposibilidad de sentir emociones."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Los problemas de erección pueden ser un síntoma, aunque también tienen otras causas frecuentes.",
+      "source": "Endocrine Society — Testosterone Therapy for Hypogonadism"
+    },
+    {
+      "id": "P43",
+      "categoryId": "andropausia_sintomas",
+      "question": "¿Qué cambio muscular puede aparecer con una deficiencia de testosterona?",
+      "options": [
+        "Duplicación de la fuerza.",
+        "Crecimiento muscular ilimitado.",
+        "Disminución de masa y fuerza muscular."
+      ],
+      "correctAnswer": "C",
+      "explanation": "El documento menciona pérdida de masa y fuerza muscular entre las manifestaciones locomotoras.",
+      "source": "PDF Menopausia y Andropausia, p. 10"
+    },
+    {
+      "id": "P44",
+      "categoryId": "andropausia_sintomas",
+      "question": "¿Qué síntoma relacionado con la energía se menciona en el documento?",
+      "options": [
+        "Energía ilimitada.",
+        "Fatiga o pérdida de vitalidad.",
+        "Ausencia de necesidad de dormir."
+      ],
+      "correctAnswer": "B",
+      "explanation": "La fatiga y la pérdida de vitalidad aparecen entre los síntomas posibles enumerados.",
+      "source": "PDF Menopausia y Andropausia, pp. 9–10"
+    },
+    {
+      "id": "P45",
+      "categoryId": "andropausia_sintomas",
+      "question": "¿Qué dificultad relacionada con el descanso pueden experimentar algunos hombres de mediana edad?",
+      "options": [
+        "Insomnio.",
+        "Dormir siempre mejor.",
+        "No necesitar descanso."
+      ],
+      "correctAnswer": "A",
+      "explanation": "El insomnio puede aparecer, aunque tiene múltiples causas posibles.",
+      "source": "NHS — The male menopause"
+    },
+    {
+      "id": "P46",
+      "categoryId": "andropausia_sintomas",
+      "question": "¿Cuál de estos cambios emocionales puede aparecer, aunque no es exclusivo de la deficiencia hormonal?",
+      "options": [
+        "Ausencia total de emociones.",
+        "Felicidad permanente.",
+        "Irritabilidad y cambios del estado de ánimo."
+      ],
+      "correctAnswer": "C",
+      "explanation": "La irritabilidad puede presentarse y no demuestra por sí sola un problema de testosterona.",
+      "source": "NHS — The male menopause"
+    },
+    {
+      "id": "P47",
+      "categoryId": "andropausia_sintomas",
+      "question": "¿Qué dificultad cognitiva se menciona entre los síntomas posibles?",
+      "options": [
+        "Memoria perfecta.",
+        "Problemas de concentración.",
+        "Mayor capacidad de recordar absolutamente todo."
+      ],
+      "correctAnswer": "B",
+      "explanation": "El PDF incluye dificultad para concentrarse entre las posibles manifestaciones neurológicas.",
+      "source": "PDF Menopausia y Andropausia, p. 10"
+    },
+    {
+      "id": "P48",
+      "categoryId": "andropausia_sintomas",
+      "question": "¿Qué cambio en la composición corporal puede observarse en algunos hombres de mediana edad?",
+      "options": [
+        "Mayor acumulación de grasa abdominal.",
+        "Desaparición completa de la grasa corporal.",
+        "Crecimiento permanente de la estatura."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Puede observarse aumento de grasa corporal, pero no es un signo específico de testosterona baja.",
+      "source": "NHS — The male menopause"
+    },
+    {
+      "id": "P49",
+      "categoryId": "andropausia_sintomas",
+      "question": "¿Qué factores también pueden causar síntomas atribuidos a la llamada andropausia?",
+      "options": [
+        "Solamente cambios genéticos.",
+        "Exclusivamente la edad.",
+        "Estrés, ansiedad o depresión."
+      ],
+      "correctAnswer": "C",
+      "explanation": "El estrés y los problemas de salud mental pueden explicar síntomas frecuentemente atribuidos a la andropausia.",
+      "source": "NHS — The male menopause"
+    },
+    {
+      "id": "P50",
+      "categoryId": "andropausia_sintomas",
+      "question": "¿Qué condiciones se asocian con mayor frecuencia al hipogonadismo masculino?",
+      "options": [
+        "Tener ojos claros.",
+        "Obesidad y diabetes tipo 2.",
+        "Ser zurdo."
+      ],
+      "correctAnswer": "B",
+      "explanation": "La obesidad y la diabetes tipo 2 se asocian con mayor prevalencia de testosterona baja.",
+      "source": "Endocrine Society — Testosterone Therapy for Hypogonadism; NHS"
+    },
+    {
+      "id": "P51",
+      "categoryId": "diagnostico_tratamientos",
+      "question": "¿Qué se necesita para diagnosticar hipogonadismo masculino?",
+      "options": [
+        "Tener más de 50 años.",
+        "Presentar canas y cansancio.",
+        "Síntomas compatibles y testosterona persistentemente baja."
+      ],
+      "correctAnswer": "C",
+      "explanation": "El diagnóstico combina síntomas o signos con valores inequívoca y consistentemente bajos.",
+      "source": "Endocrine Society — Testosterone Therapy for Hypogonadism"
+    },
+    {
+      "id": "P52",
+      "categoryId": "diagnostico_tratamientos",
+      "question": "¿Cuántas mediciones de testosterona baja suelen requerirse para confirmar el diagnóstico?",
+      "options": [
+        "Al menos dos mediciones en mañanas diferentes.",
+        "Una medición nocturna.",
+        "Ninguna medición."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Se recomienda confirmar una testosterona inicialmente baja mediante otra medición matutina.",
+      "source": "Endocrine Society — Testosterone Therapy for Hypogonadism"
+    },
+    {
+      "id": "P53",
+      "categoryId": "diagnostico_tratamientos",
+      "question": "¿En qué momento del día suele recomendarse medir la testosterona para evaluar hipogonadismo?",
+      "options": [
+        "Durante la madrugada después de cenar.",
+        "Temprano por la mañana, preferentemente en ayunas.",
+        "Exclusivamente por la noche."
+      ],
+      "correctAnswer": "B",
+      "explanation": "La medición matinal, idealmente en ayunas, permite mayor consistencia diagnóstica.",
+      "source": "Endocrine Society — Testosterone Therapy for Hypogonadism"
+    },
+    {
+      "id": "P54",
+      "categoryId": "diagnostico_tratamientos",
+      "question": "¿Por qué puede ser necesario repetir un análisis de testosterona?",
+      "options": [
+        "Porque los niveles nunca cambian.",
+        "Porque la edad no afecta las hormonas.",
+        "Porque los niveles varían durante el día y entre días."
+      ],
+      "correctAnswer": "C",
+      "explanation": "Los valores fluctúan y una sola medición baja puede no reflejar una deficiencia persistente.",
+      "source": "Endocrine Society — Testosterone Therapy for Hypogonadism"
+    },
+    {
+      "id": "P55",
+      "categoryId": "diagnostico_tratamientos",
+      "question": "¿Qué se recomienda cuando un hombre presenta síntomas persistentes compatibles con deficiencia de testosterona?",
+      "options": [
+        "Consultar a un profesional médico para investigar la causa.",
+        "Automedicarse con testosterona.",
+        "Ignorar siempre los síntomas."
+      ],
+      "correctAnswer": "A",
+      "explanation": "Los síntomas persistentes requieren evaluación clínica y búsqueda de causas alternativas.",
+      "source": "NHS — The male menopause"
+    },
+    {
+      "id": "P56",
+      "categoryId": "diagnostico_tratamientos",
+      "question": "¿Se recomienda medir la testosterona de forma rutinaria a todos los hombres sin síntomas?",
+      "options": [
+        "Sí, obligatoriamente cada mes.",
+        "No, no se recomienda el cribado universal.",
+        "Sí, independientemente de la edad y los antecedentes."
+      ],
+      "correctAnswer": "B",
+      "explanation": "Las guías no aconsejan cribado sistemático de testosterona en la población general masculina asintomática.",
+      "source": "Endocrine Society — Testosterone Therapy for Hypogonadism"
+    },
+    {
+      "id": "P57",
+      "categoryId": "diagnostico_tratamientos",
+      "question": "¿En qué situación puede indicarse tratamiento con testosterona?",
+      "options": [
+        "Cuando cualquier hombre desea aumentar su musculatura.",
+        "Siempre a partir de los 40 años.",
+        "En determinados casos de hipogonadismo confirmado, tras evaluación médica."
+      ],
+      "correctAnswer": "C",
+      "explanation": "La terapia puede estar indicada tras confirmar hipogonadismo y valorar beneficios y contraindicaciones.",
+      "source": "Endocrine Society — Testosterone Therapy for Hypogonadism"
+    },
+    {
+      "id": "P58",
+      "categoryId": "diagnostico_tratamientos",
+      "question": "¿Qué debe tenerse en cuenta antes de iniciar testosterona si el paciente desea tener hijos?",
+      "options": [
+        "El tratamiento puede afectar la fertilidad y generalmente debe evitarse si se busca concebir próximamente.",
+        "La testosterona siempre aumenta la fertilidad.",
+        "El tratamiento no tiene ninguna relación con la producción de espermatozoides."
+      ],
+      "correctAnswer": "A",
+      "explanation": "La testosterona exógena puede suprimir la producción de espermatozoides y perjudicar la fertilidad.",
+      "source": "Endocrine Society — Testosterone Therapy for Hypogonadism"
+    },
+    {
+      "id": "P59",
+      "categoryId": "diagnostico_tratamientos",
+      "question": "¿Qué controles pueden formar parte del seguimiento de una terapia con testosterona?",
+      "options": [
+        "Solamente el peso corporal.",
+        "Hematocrito, testosterona y evaluación prostática según corresponda.",
+        "Únicamente una prueba de visión."
+      ],
+      "correctAnswer": "B",
+      "explanation": "El seguimiento incluye niveles hormonales y hematocrito, y evaluación de próstata cuando corresponde.",
+      "source": "Endocrine Society — Testosterone Therapy for Hypogonadism"
+    },
+    {
+      "id": "P60",
+      "categoryId": "diagnostico_tratamientos",
+      "question": "¿Qué se conoce sobre la seguridad a largo plazo de la terapia con testosterona?",
+      "options": [
+        "Se ha demostrado que no presenta ningún riesgo.",
+        "Es igualmente segura para todas las personas.",
+        "Todavía existen incertidumbres y requiere valoración y seguimiento médico."
+      ],
+      "correctAnswer": "C",
+      "explanation": "La indicación y seguridad dependen de características individuales; es necesario seguimiento clínico.",
+      "source": "Endocrine Society — Testosterone Therapy for Hypogonadism"
+    }
+  ]
+}
